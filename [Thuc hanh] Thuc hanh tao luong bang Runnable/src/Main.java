@@ -13,8 +13,8 @@ public class Main {
         thread2.start();
 
         Thread.sleep(4000);
-
         thread1.join();
+
         System.out.println("\nMain close");
     }
 }
